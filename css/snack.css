@@ -1,0 +1,461 @@
+*{
+    font-family: "Raleway";
+}
+
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(216, 115, 0);
+    background-color: rgba(0, 0, 0, 0.985);
+}
+.conte{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    min-height: 1800px;
+    font-family: 'Martel', serif
+}
+.div1{
+    background-color: black;
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 96px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -96px;
+    border-bottom: solid 1px rgb(216, 97, 0);
+
+}
+.sn{
+    margin-right: 100px;
+}
+.wn{
+    float: right;
+
+  
+}
+.nt {
+    display: none;
+    position: absolute;
+    background-color: rgb(216, 97, 0);
+    width: 100%;
+    margin-left: -825px;
+    z-index: 1;
+    margin-top: 70px;
+    height: 70px; 
+}
+.cont1{
+    margin-right: 424px;
+}
+.wn2{
+    float: right;
+    overflow: hidden;
+    
+}
+.nt2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(216, 97, 0);
+    width: 100%;
+    margin-left: -1039px;
+    z-index: 1;
+    margin-top: 70px;
+    height: 70px; 
+
+}
+.wn2:hover .nt2 {
+    display: block;
+    
+}
+.t2{
+    margin-right: 300px;
+    
+}
+.wn:hover .nt {
+    display: block;
+    
+}
+.div1>img{
+    width: 22%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.div1 a{
+    float: right;
+    padding: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  
+}
+.div1 a:hover{
+    height: 70px;
+    background-color: rgb(216, 97, 0);
+    transition: 0s;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    float: left;
+    width: 300px;
+    height: 60px;
+}
+
+.logo a {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.logo a img{
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.logo a:hover{
+    background-color: black;
+
+}
+.imgpipoca{
+    margin-top: 96px;
+}
+.imgpipoca img{
+    width: 100%;
+    height: 400px;
+}
+.cartao{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: block;
+}
+.cartao img{
+    height: 100%;
+    width: 250px;
+    
+}
+.bradesco{
+    margin-left: 159px;
+    
+}
+
+.elo{
+    margin-top: -80px;
+    margin-left: 429px;
+}
+.vivo{
+    margin-top: -80px;
+    margin-left: 699px;
+}
+.prime{
+    margin-top: -80px;
+    margin-left: 969px;
+}
+.titulocombos{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+
+}
+.combos{
+    width: 80%;
+    margin: auto;
+    min-height: 1000px;
+    margin-top: 70px;
+    
+}
+.mms{
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.mms img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.mms img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+
+.div3{
+    overflow: hidden;
+}
+.combo2{
+    margin-left: 390px;
+    margin-top: -300px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.combo2 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+.combo3{
+    margin-left: 780px;
+    margin-top: -300px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo3 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.combo4{
+    margin-top: 90px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo4 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo4 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.combo5{
+    margin-left: 390px;
+    margin-top: -300px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo5 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo5 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.combo6{
+    margin-left: 780px;
+    margin-top: -300px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo6 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo6 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.combo7{
+    margin-top: 90px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo7 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo7 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.combo8{
+    margin-left: 390px;
+    margin-top: -300px;
+    width: 300px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo8 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo8 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.combo9{
+    margin-left: 780px;
+    margin-top: -300px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.combo9 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.combo9 img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+.vendas{
+    width: 100%;
+    text-align: center;
+    color: rgb(192, 192, 192);
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    margin-top: 5%;
+}
+
+.rodape{
+    width: 100%;
+    height: 300px;
+    background: rgba(94, 94, 94, 0.438) url(../img/cinema-1.jpg) ;
+    color: white;
+    font-family: 'Benne', serif;
+    font-size: 24px;
+    display: block;
+    margin-top: 40px;
+    
+}
+.rodape a{
+    color: white;
+}
+.opaci{
+    height: 100%;
+    background-color: rgba(77, 75, 75, 0.87);
+}
+.redes{
+    width: 94%;
+    margin: auto
+}
+.redes a{
+    padding: 52px;
+}
+.redes a:hover{
+    text-decoration: none;
+}
+.espaco{
+    height: 50px;
+}
+.face:hover{
+    color: rgb(0, 0, 192);
+    
+}
+.twitter:hover{
+    color: rgb(2, 148, 233);
+}
+.insta:hover{
+    color: rgb(255, 0, 80) ;
+}
+.linkedin:hover{
+    color: rgb(0, 4, 255);
+}
+.youtube:hover{
+    color: red;
+}
+.bi-twitter{
+    width: 20px;
+    height: 20px;
+}
+.bi-facebook{
+    width: 20px;
+    height: 20px;
+}
+.bi-instagram{
+    width: 20px;
+    height: 20px;
+}
+.bi-linkedin{
+    width: 20px;
+    height: 20px;
+}
+.bi-youtube{
+    width: 20px;
+    height: 20px;
+}
+.espaco2{
+    width: 88%;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+}
+.fim img{
+    width: 280px;
+    height: 50px;
+    margin-top: 10px;
+}
+.fim{
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.fim a{
+    padding: 2%;
+    text-decoration: none;
+    
+}
+.fim a:hover{
+    color: white;
+    text-decoration: none;
+}

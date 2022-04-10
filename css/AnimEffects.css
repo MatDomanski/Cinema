@@ -1,0 +1,88 @@
+* {
+    text-decoration: none;
+    font-family: "Raleway";
+}
+
+.movie-cover {
+    position: relative;
+    z-index: 0;
+}
+
+.color-layer{
+    position: absolute;
+    display: flex;
+    background-color: rgba(245, 162, 36, 0);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.color-layer:hover {
+    background-color: rgba(216, 97, 0, 0.5);
+    animation-name: fadein;
+    animation-duration: 0.5s;
+    opacity: 1;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.cover-btns {
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.cover-name{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    
+    font-weight: 700;
+}
+
+.cover-btn{
+    width: 100%;
+    height: 36px;
+    margin: auto;
+    margin-top: 30px;
+    border: white solid 1px;
+    border-radius: 18px;
+    padding: 5px;
+}
+.cover-btn > a { 
+    margin: auto;
+    text-decoration: none;
+}
+
+.cover-btn > a > p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.cover-btn:hover {
+    background-color: white;
+}
+
+.cover-btn:hover > a > p {
+    color: rgb(216, 97, 0);
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

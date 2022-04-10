@@ -1,0 +1,388 @@
+* { 
+    text-decoration: none;
+    font-family: "Raleway";
+}
+
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(216, 115, 0);
+    background-color: rgb(0, 0, 0);
+}
+.conte{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    min-height: 1800px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.carousel{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+.filmes-em-cartaz{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.carousel-item img{
+    height: 450px;
+}
+.contfilmesemcartaz{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 320px;
+    margin: auto;
+}
+
+.cinza {
+    background-color: rgb(41, 41, 41);
+    width: 15.6%;
+    height: 310px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    
+    border-radius: 5px;
+}
+
+.filme{
+    width: 100%;
+    height: 270px;
+}
+.filme img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; 
+}
+
+.div1{
+    background-color: black;
+    display: flexbox;
+    width: 100%;
+    height: 16%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    border-bottom: solid 1px rgb(216, 97, 0);
+
+}
+.sn{
+    margin-right: 100px;
+}
+.wn{
+    float: right;
+
+  
+}
+.nt {
+    display: none;
+    position: absolute;
+    background-color: rgb(216, 97, 0);
+    width: 100%;
+    margin-left: -61.2%;
+    z-index: 1;
+    margin-top: 70px;
+    height: 70px; 
+}
+.cont1{
+    margin-right: 424px;
+}
+.wn2{
+    float: right;
+    overflow: hidden;
+    
+}
+.nt2 {
+    display: none;
+    position: absolute;
+    background-color:rgb(216, 97, 0);
+    width: 100%;
+    margin-left: -1040px;
+    z-index: 1;
+    margin-top: 70px;
+    height: 70px; 
+
+}
+.wn2:hover .nt2 {
+    display: block;
+    
+}
+.t2{
+    margin-right: 300px;
+    
+}
+.wn:hover .nt {
+    display: block;
+    
+}
+
+.div1 a{
+    float: right;
+    padding: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  
+}
+.div1 a:hover{
+    height: 70px;
+    background-color: rgb(216, 97, 0);
+    transition: 0s;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    float: left;
+    width: 300px;
+    height: 60px;
+}
+
+.logo a {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.logo a img{
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.logo a:hover{
+    background-color: black;
+
+}
+
+
+.div3{
+    overflow: hidden;
+}
+.div3>img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    transition: 1.5s;
+}
+.div3>img:hover{
+    transform: scale(1.5);
+    transition: 3.0s;
+}
+.div3{
+    width: 100%;
+    margin: auto;
+    
+}
+.filmes-em-cartaz{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+}
+.a1{
+    word-spacing: 30px;
+    color: rgb(216, 97, 0);
+    margin-top: -30px;
+    text-align: center;
+    
+}
+.a1 a{
+    color: rgb(216, 97, 0);
+    text-decoration: none;
+}
+.a1 a:hover{
+    color: rgb(216, 97, 0);
+    text-decoration: none;
+}
+
+.contfilme{
+    margin: auto;
+    width: 95%;
+}
+
+.classificacao img{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.sinopese{
+    margin-top: -25px;
+    color: rgb(216, 97, 0);
+    margin-left: 23%;
+    font-size: 13px;
+    border: solid 1px ;
+    text-align: center;
+    border-radius: 10px;
+    width: 70%;
+}
+.sinopese a{
+    text-decoration: none;
+    color: rgb(216, 97, 0);
+
+}
+.sinopese a:hover{
+    text-decoration: none;
+    color: rgb(216, 97, 0);
+}
+
+
+.breve{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.cartao{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    background-color:black;
+    display: flex;
+}
+.cartao img{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.bradesco{
+    margin-left: 2px;
+    height: 100%;
+    width: 24%;
+    margin-left: 1.5%;
+    
+}
+
+.elo{
+    margin-left: 20px;
+    height: 100%;
+    width: 24%;
+    margin-left: 1.5%;
+    
+}
+.vivo{
+    height: 100%;
+    width: 24%;
+    margin-left: 1.5%;
+    
+}
+.prime{
+    height: 100%;
+    width: 24%;
+    margin-left: 1.5%;
+    
+    
+}
+.rodape{
+    width: 100%;
+    height: 300px;
+    background: rgba(94, 94, 94, 0.438) url(../img/rodape.png) ;
+    color: white;
+    font-family: 'Benne', serif;
+    font-size: 24px;
+}
+.rodape a{
+    color: white;
+}
+.opaci{
+    height: 100%;
+    background-color: rgba(77, 75, 75, 0.87);
+}
+.redes{
+    display: flex;
+    width: 94%;
+    margin: auto;
+}
+.redes a{
+    margin-left: 4%;
+    margin-right: 1%;
+    width: 16%;
+}
+
+.redes a:hover{
+    text-decoration: none;
+}
+.espaco{
+    height: 50px;
+}
+.face:hover{
+    color: rgb(0, 0, 192);
+    
+}
+.twitter:hover{
+    color: rgb(2, 148, 233);
+}
+.insta:hover{
+    color: rgb(255, 0, 80) ;
+}
+.linkedin:hover{
+    color: rgb(0, 4, 255);
+}
+.youtube:hover{
+    color: red;
+}
+.bi-twitter{
+    width: 20px;
+    height: 20px;
+}
+.bi-facebook{
+    width: 20px;
+    height: 20px;
+}
+.bi-instagram{
+    width: 20px;
+    height: 20px;
+}
+.bi-linkedin{
+    width: 20px;
+    height: 20px;
+}
+.bi-youtube{
+    width: 20px;
+    height: 20px;
+}
+.espaco2{
+    width: 88%;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+}
+.fim img{
+    width: 280px;
+    height: 50px;
+    margin-top: 10px;
+}
+.fim{
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.fim a{
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.fim a:hover{
+    color: white;
+    text-decoration: none;
+}

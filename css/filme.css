@@ -1,0 +1,86 @@
+*{
+    font-family: "Raleway";
+}
+
+h2 {
+    color: white;
+    font-family: "raleway";
+    font-weight: normal;
+    font-size: 35px;
+    margin: auto;
+    margin-left: 10%;
+}
+
+.filme-container{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.title-container {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 96px;
+    height: 100px;
+}
+
+.trailer {
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+}
+
+.cover-container {
+    position: absolute;
+    display: flex;
+    width: 280px;
+    top: 565px;
+    left: 10%;
+}
+
+.cover-container p {
+    margin-left: 15px;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.cover{
+    width: 170px;
+    height: 250px;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-container .classificacao {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.sinopse {
+    width: 80%;
+    height: 400px;
+
+    margin: auto;
+    margin-top: 180px;
+}
+
+.sinopse h3 {
+    color: rgb(216, 97, 0);
+    font-family: "raleway";
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.sinopse p {
+    color: white;
+    font-family: "raleway";
+    font-weight: lighter;
+    font-size: 20px;
+}
